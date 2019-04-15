@@ -33,7 +33,7 @@ print('model score is ' + str(scores))
 
 # ---------------------------
 # VOA building stock data by type and nbedrooms
-voastockpath = 'VOA_stock.csv'
+voastockpath = 'voatype_lsoastock.csv'
 df_voastock = pd.read_csv(voastockpath)
 
 # total dwellings for london
@@ -42,7 +42,7 @@ print('total dwellings in london ' + str(ndwellings_ldn))
 
 # ---------------------------
 # count epc stock and append up to total dwellings in london
-epcstockpath = 'epc_lsoastockmodel.csv'
+epcstockpath = 'epc_lsoastock.csv'
 df_epcstock = pd.read_csv(epcstockpath)
 
 # count how many dwellings in epc
